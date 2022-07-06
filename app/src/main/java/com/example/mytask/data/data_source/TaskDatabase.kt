@@ -9,4 +9,8 @@ import com.example.mytask.data.domain.model.Task
 )
 abstract class TaskDatabase: RoomDatabase() {
     abstract val taskDao: TaskDao
+
+    companion object {
+        const val DATABASE_NAME = "tasks_db"
+    }
 }
