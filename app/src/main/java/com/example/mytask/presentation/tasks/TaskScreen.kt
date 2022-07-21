@@ -23,6 +23,7 @@ import com.example.mytask.presentation.tasks.components.OrderSection
 import com.example.mytask.presentation.tasks.components.TaskItem
 import kotlinx.coroutines.launch
 
+@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun TaskScreen(
     navController: NavController,
